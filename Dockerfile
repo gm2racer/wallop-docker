@@ -1,6 +1,6 @@
 FROM ruby:2.2.0
 
-MAINTAINER Teddy Wang <Teddy Wang>
+MAINTAINER Teddy Wang <gm2racer@gmail.com>
 
 RUN apt-get update \
   && apt-get install -y automake libass-dev libfreetype6-dev libgpac-dev \
