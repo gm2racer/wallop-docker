@@ -25,7 +25,7 @@ RUN apt-get update \
   && make install \
   && make distclean \
   && hash -r \
-  && git clone -b docker --single-branch git://github.com/gm2racer/wallop.git /wallop \
+  && git clone git://github.com/gm2racer/wallop.git /wallop \
   && cd /wallop \
   && bundle install --standalone --binstubs --local --path vendor/gems --quiet \
   && rm -rf /usr/local/src \
